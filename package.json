@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:analyze": "set ANALYZE=true&& next build",
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --check --ignore-path .gitignore .",
@@ -12,11 +13,14 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "@next/bundle-analyzer": "^14.1.1",
     "next": "14.1.1",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "sharp": "^0.33.2"
   },
   "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
