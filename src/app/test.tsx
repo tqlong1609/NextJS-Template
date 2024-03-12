@@ -1,14 +1,9 @@
 import React from 'react'
 
-import Image from 'next/image'
-
-import responsiveImage from 'src/assets/img/img-test.png'
-
 const Test: React.FC = () => {
   return (
-    <div>
-      <Image src={responsiveImage} alt="image-1" width={500} height={500} />
-      <Image src={'/img/img-test-public.png'} alt="image-2" width={500} height={500} />
+    <div className="border border-gray-200/25">
+      <h1 className=" grow text-clip text-3xl font-bold text-violet-200 underline">Hello world!</h1>
     </div>
   )
 }

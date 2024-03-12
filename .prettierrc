@@ -5,7 +5,7 @@
   "semi": false,
   "printWidth": 100,
   "useTabs": false,
-  "plugins": ["@trivago/prettier-plugin-sort-imports"],
+  "plugins": ["@trivago/prettier-plugin-sort-imports", "prettier-plugin-tailwindcss"],
   "importOrder": [
     "^react\\w*|prop-types",
     "^react-router\\w*",
